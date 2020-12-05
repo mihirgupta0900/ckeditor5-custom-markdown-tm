@@ -38,5 +38,8 @@
   "scripts": {
     "build": "webpack --mode production",
     "test": "echo \"No test specified\""
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-horizontal-line": "^23.1.0"
   }
 }
