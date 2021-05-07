@@ -29,6 +29,7 @@ import Table from "@ckeditor/ckeditor5-table/src/table.js";
 import TableToolbar from "@ckeditor/ckeditor5-table/src/tabletoolbar.js";
 import TextTransformation from "@ckeditor/ckeditor5-typing/src/texttransformation.js";
 import HorizontalLine from "@ckeditor/ckeditor5-horizontal-line/src/horizontalline";
+import Alignment from '@ckeditor/ckeditor5-alignment'
 
 class Editor extends ClassicEditor {}
 
@@ -59,6 +60,7 @@ Editor.builtinPlugins = [
   TableToolbar,
   TextTransformation,
   HorizontalLine,
+  Alignment
 ];
 
 export default Editor;
